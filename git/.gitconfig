@@ -1,0 +1,7 @@
+[user]
+	name = Mike Pearce
+	email = mike.pearce@moo.com
+[push]
+	default = simple
+[alias]
+        lg = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ce %cr)\" --abbrev-commit --date=relative
