@@ -11,10 +11,6 @@ brew install node
 brew install git
 brew install wget
 
-# Clone the dotfiles
-git clone https://github.com/MikePearce/dotfiles.git
-cd dotfiles
-
 # Get oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
 
