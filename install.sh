@@ -1,5 +1,16 @@
 #!/bin/sh
 
+# Get Homebrew and cask
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
+
+# Install some stuff
+brew install node
+brew install git
+brew install wget
+
 # Clone the dotfiles
 git clone https://github.com/MikePearce/dotfiles.git
 cd dotfiles
