@@ -19,3 +19,6 @@ for DOTFILE in `find /Users/mikepearce/.dotfiles/system`
 do
   [ -f $DOTFILE ] && source $DOTFILE
 done
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
