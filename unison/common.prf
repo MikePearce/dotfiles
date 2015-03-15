@@ -1,0 +1,9 @@
+ # common vars
+ #
+ 
+ fastcheck = true
+ sortnewfirst = true
+ confirmbigdeletes = true
+ rsrc = true
+ 
+ ignore = Name .DS_Store

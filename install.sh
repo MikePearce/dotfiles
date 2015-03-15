@@ -10,6 +10,7 @@ brew tap caskroom/versions
 brew install node
 brew install git
 brew install wget
+brew install unison
 
 # Get oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
@@ -21,6 +22,9 @@ export DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -sfv "$DOTFILES_DIR/runcom/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+
+# TODO
+# Setup unison sync and launchd
 
 # Do some installs and defaults
 source "$DOTFILES_DIR/install/osx.sh"

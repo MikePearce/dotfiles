@@ -1,0 +1,14 @@
+include common
+root = /Users/mikepearce/Dropbox/
+root = /Users/mikepearce/Google Drive/
+# If you don't know what to do, just copy from Dropbox to Google
+prefer = /Users/mikepearce/Dropbox/
+
+ignore = Path Photos
+ignore = Path 1Password
+ignore = Path telekom (1)
+ignore = Path Archive
+ignore = Path Camera Uploads
+ignore = Path Camera Uploads From Jacqui
+ignore = Path {Apps/Day One/Journal.dayone/entries/46BEC8C532134ACA893956F7728365DE.doentry}
+ignore = Name {,.}*{.doentry}
