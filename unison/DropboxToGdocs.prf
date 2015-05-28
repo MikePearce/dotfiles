@@ -1,6 +1,6 @@
 include common
 root = /Users/mikepearce/Dropbox/
-root = /Users/mikepearce/Google Drive/
+root = /Users/mikepearce/mike@pearce.be/
 # If you don't know what to do, just copy from Dropbox to Google
 prefer = /Users/mikepearce/Dropbox/
 
